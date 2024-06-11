@@ -1,0 +1,21 @@
+# Apuntes de clase 
+
+```
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^3.10.0"
+  }
+}
+
+```
