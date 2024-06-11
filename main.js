@@ -1,4 +1,5 @@
 
+import { getAllContactsNameAndLastName } from "./js/module/customers.js";
 import { getAll, getAllEmployeesForEachJobTitle, getAllLastName } from "./js/module/employees.js"
 
 
@@ -10,4 +11,6 @@ import { getAll, getAllEmployeesForEachJobTitle, getAllLastName } from "./js/mod
 
 // console.log(await getAllLastName())
 // console.log(await getAll());
-console.log(await getAllEmployeesForEachJobTitle("Sales Rep"));
+// console.log(await getAllEmployeesForEachJobTitle("Sales Rep"));
+
+console.log(await getAllContactsNameAndLastName());
