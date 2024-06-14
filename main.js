@@ -6,7 +6,7 @@ import { getAllPaymentsMadeForClients } from "./js/module/payments.js";
 import { getAllProductsBuyPriceGreaterThanFifty, getAllProductsInStock, getTotalProductsInStock } from "./js/module/products.js";
 
 
-// console.log(await getAllProductsInStock());
+console.log(await getAllProductsInStock());
 // console.log(await getAllEmployeesThatWorksInAOffice());
 // console.log(await getDetailsOfClients())
 // console.log(await getAllPaymentsMadeForClients({customerNumber: 121}));
@@ -20,4 +20,4 @@ import { getAllProductsBuyPriceGreaterThanFifty, getAllProductsInStock, getTotal
 // console.log(await getAllOrdersMadeByClients() );
 // console.log(await getAllEmployeesWithTheOfficeTheirWorks());
 // console.log(await getAllCustomersWithSalesRepresentative());
-console.log(await getAllEmployeesOfEachOffices());
+// console.log(await getAllEmployeesOfEachOffices());

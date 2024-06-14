@@ -13,7 +13,7 @@ export const getAllOrdersShipped = async()=>{
 
 export const getAllOrdersMadeByClients = async({customerNumber} = {customerNumber: 112})=>{
     const [result] = await connection.execute(
-    `SELECT c.customerNumber, c.customerName, od.orderNumber, od.productCode FROM customers AS c INNER JOIN orders AS o ON o.customerNumber=c.customerNumber INNER JOIN orderdetails as od ON o.orderNumber=od.orderNumber WHERE c.customerNumber = ?`,[customerNumber])
+    `SELECT c.customerNumber, c.customerName, od.orderNumber, od.productCode FROM customers AS c INNER JOIN orders AS o ON o.customerNumber=c.customerNumber INNER JOIN orderdetails AS od ON o.orderNumber=od.orderNumber WHERE c.customerNumber = ?`,[customerNumber])
 
     result["count"] = result.length;
     
